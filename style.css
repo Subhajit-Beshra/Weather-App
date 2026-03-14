@@ -18,12 +18,12 @@ body{
     text-align: center;
 }
 #city{
-    padding: 10px 40px;
+    padding: 20px 20px;
     border: 2px solid #ccc;
     border-radius: 6px;
 }
 button{
-    padding: 10px 40px;
+    padding: 20px 20px;
     border: 1px solid #ccc;
     border-radius: 6px;
 }
