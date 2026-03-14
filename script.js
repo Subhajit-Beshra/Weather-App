@@ -1,4 +1,4 @@
-hereasync function getWeather(){
+async function getWeather(){
     let city = document.getElementById("city").value;
 
     try{
