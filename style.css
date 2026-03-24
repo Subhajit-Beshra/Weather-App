@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    background-color: #6984A9;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,20 +11,29 @@ body{
 }
 
 .container{
-    border: 2px solid #ccc;
+    background-color: #263B6A;;
     border-radius: 6px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: center;
+    transition: transform 0.3s ease;
+}
+.container:hover{
+    transform: translateY(-5px);
+    border: 2px solid #8494FF;
+    box-shadow: 0 0 30px 10px #8494FF;
 }
 #city{
     padding: 20px 20px;
-    border: 2px solid #ccc;
+    border: none;
+    outline: none;
     border-radius: 6px;
 }
 button{
+    background-color: #DE1A58;
+    color: white;
     padding: 20px 20px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 6px;
 }
 .temp{
